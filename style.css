@@ -1,0 +1,44 @@
+* {
+    margin: 0 auto;
+    color: white;
+}
+
+body {
+    background-color: rgb(33, 33, 33);
+}
+
+.CV__wrapper {
+    margin: 0 auto;
+    width: 1280px;
+    background-color: rgb(56, 56, 56);
+}
+
+header {
+    display: flex;
+    padding-bottom: 50px;
+}
+
+.header__img {
+    width: 150px;
+}
+
+.header__img img{
+    width: 100%;
+}
+
+main {
+    display: flex;
+    padding-bottom: 50px;
+}
+
+footer {
+    display: flex;
+}
+
+.logo_RS {
+    width: 200px;
+}
+
+.logo_RS svg{
+    width: 100%;
+}
