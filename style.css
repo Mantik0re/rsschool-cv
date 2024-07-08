@@ -1,3 +1,10 @@
+@font-face {
+    font-family: Geologica;
+    src: url('/fonts/Geologica-Medium.ttf'),
+        url('/fonts/Geologica-Regular.ttf'),
+        url('/fonts/Geologica-SemiBold.ttf');
+}
+
 * {
     margin: 0 auto;
     color: white;
@@ -5,6 +12,7 @@
 
 body {
     background-color: rgb(33, 33, 33);
+    font-family: Geologica, 'Times New Roman', Times, serif;
 }
 
 .CV__wrapper {
