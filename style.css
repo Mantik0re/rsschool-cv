@@ -1,8 +1,8 @@
 @font-face {
     font-family: Geologica;
-    src: url('/fonts/Geologica-Medium.ttf'),
-        url('/fonts/Geologica-Regular.ttf'),
-        url('/fonts/Geologica-SemiBold.ttf');
+    src: url('fonts/Geologica-Medium.ttf'),
+        url('fonts/Geologica-Regular.ttf'),
+        url('fonts/Geologica-SemiBold.ttf');
 }
 
 * {
