@@ -7,12 +7,26 @@
 
 * {
     margin: 0;
-    color: white;
+}
+
+h2 {
+    font-size: 28px;
+    padding-bottom: 10px;
+}
+
+nav ul li{
+    list-style-type: none;
+    padding-bottom: 10px;
+}
+
+nav ul {
+    padding: 15px 0;
 }
 
 body {
     background-color: rgb(33, 33, 33);
     font-family: Geologica, 'Times New Roman', Times, serif;
+    color: white;
 }
 
 .CV__wrapper {
@@ -41,9 +55,16 @@ header {
 
 main {
     display: flex;
-    padding-bottom: 50px;
+    padding: 50px 5%;
     background-color: #b7b7b7;
+    
 }
+
+.contacts {
+    color: black;
+    font-size: 20px;
+}
+
 
 
 
