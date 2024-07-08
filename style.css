@@ -55,18 +55,43 @@ header {
 
 main {
     display: flex;
-    padding: 50px 5%;
+    /* padding: 50px 5%; */
     background-color: #b7b7b7;
     
 }
 
 .contacts {
+    width: 30%;
     color: black;
     font-size: 20px;
+    padding: 50px 5%;
 }
 
 
+.about {
+    width: 80%;
+    padding: 50px 5%;
+    background-color: aliceblue;
+    color: black;
+}
 
+.about__section {
+    padding-bottom: 60px;
+}
+
+.about .title {
+    font-size: 30px;
+    padding-bottom: 10px;
+}
+
+.about .text {
+    font-size: 22px;
+    padding-bottom: 10px;
+}
+
+pre {
+    background-color: #f1f6fae7;
+}
 
 footer {
     padding: 50px 0;
