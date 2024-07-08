@@ -40,11 +40,18 @@ main {
 }
 
 footer {
+    padding-bottom: 50px;
     display: flex;
+    align-items: center;
+    
+}
+
+.logo_Github {
+    width: 50px;
 }
 
 .logo_RS {
-    width: 200px;
+    width: 100px;
 }
 
 .logo_RS svg{
