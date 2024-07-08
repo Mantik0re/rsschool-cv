@@ -6,7 +6,7 @@
 }
 
 * {
-    margin: 0 auto;
+    margin: 0;
     color: white;
 }
 
@@ -17,13 +17,17 @@ body {
 
 .CV__wrapper {
     margin: 0 auto;
+    padding: 50px 100px;
     width: 1280px;
     background-color: rgb(56, 56, 56);
 }
 
 header {
+    padding: 50px 0;
     display: flex;
-    padding-bottom: 50px;
+    justify-content:flex-start;
+    align-items: center;
+    gap: 50px;
 }
 
 .header__img {
