@@ -23,15 +23,6 @@ a:hover {
     color: rgb(0, 83, 83);
 }
 
-nav ul li{
-    list-style-type: none;
-    padding-bottom: 10px;
-}
-
-nav ul {
-    padding: 15px 0;
-}
-
 body {
     background-color: rgb(33, 33, 33);
     font-family: Geologica, 'Times New Roman', Times, serif;
@@ -76,6 +67,13 @@ main {
     padding: 50px 5%;
 }
 
+.contacts h2 {
+    margin-bottom: 15px;
+}
+
+.contacts p {
+    margin-bottom: 1px;
+}
 
 .about {
     width: 80%;
