@@ -57,18 +57,18 @@
                 </div>
                 <div class="code about__section" id="code">
                     <p class="title">Code:</p>
-                    <pre>
-                        const currentYear = new Date().getFullYear();
-                        const yearElement = document.querySelector('year-range');
-                        document.addEventListener("DOMContentLoaded", function () {
-                          const yearRangeElement = document.createElement("p");
-                          yearRangeElement.className = "year-range";
-                          yearRangeElement.textContent = `© 2018 - ${currentYear} ООО “ВОРЛД СЕРВИС”`;
+                    <p class="code__text">
+                        const currentYear = new Date().getFullYear(); <br>
+                        const yearElement = document.querySelector('year-range');<br>
+                        document.addEventListener("DOMContentLoaded", function () {<br>
+                          const yearRangeElement = document.createElement("p");<br>
+                          yearRangeElement.className = "year-range";<br>
+                          yearRangeElement.textContent = `© 2018 - ${currentYear} ООО “ВОРЛД СЕРВИС”`;<br><br>
                         
-                          const footerTextDiv = document.querySelector(".footer_text");
+                          const footerTextDiv = document.querySelector(".footer_text");<br><br>
                         
-                          footerTextDiv.insertBefore(yearRangeElement, footerTextDiv.firstChild);
-                        });</pre>
+                          footerTextDiv.insertBefore(yearRangeElement, footerTextDiv.firstChild);<br>
+                        });</p>
                 </div>
             </div>
         </main>

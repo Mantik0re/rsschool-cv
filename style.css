@@ -112,7 +112,8 @@ main {
     padding-bottom: 10px;
 }
 
-pre {
+.code__text {
+    padding-right: 30px;
     background-color: #f1f6fae7;
 }
 
