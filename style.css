@@ -7,6 +7,7 @@
 
 * {
     margin: 0;
+    scroll-behavior: smooth;
 }
 
 h2 {
@@ -14,13 +15,13 @@ h2 {
     padding-bottom: 10px;
 }
 
-nav ul li{
-    list-style-type: none;
-    padding-bottom: 10px;
+a {
+    text-decoration: none;
+    color: black;
 }
 
-nav ul {
-    padding: 15px 0;
+a:hover {
+    color: rgb(0, 83, 83);
 }
 
 body {
@@ -37,10 +38,9 @@ body {
 }
 
 header {
-    padding: 50px 10%;
+    padding: 50px 0 50px 10%;
     width: 80%;
     display: flex;
-    justify-content: flex-start;
     align-items: center;
     gap: 50px;
 }
@@ -53,11 +53,27 @@ header {
     width: 100%;
 }
 
+nav ul {
+    display: flex;
+    gap: 20px;
+    padding-left: 0;
+}
+
+nav a {
+    color: #fff;
+}
+
+nav a:hover {
+    color: #e3e3e3;
+}
+
+nav ul li {
+    list-style-type: none;
+}
+
 main {
     display: flex;
-    /* padding: 50px 5%; */
     background-color: #b7b7b7;
-    
 }
 
 .contacts {
@@ -67,6 +83,13 @@ main {
     padding: 50px 5%;
 }
 
+.contacts h2 {
+    margin-bottom: 15px;
+}
+
+.contacts p {
+    margin-bottom: 1px;
+}
 
 .about {
     width: 80%;
@@ -89,7 +112,8 @@ main {
     padding-bottom: 10px;
 }
 
-pre {
+.code__text {
+    padding-right: 30px;
     background-color: #f1f6fae7;
 }
 
