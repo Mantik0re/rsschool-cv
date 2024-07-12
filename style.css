@@ -7,6 +7,7 @@
 
 * {
     margin: 0;
+    scroll-behavior: smooth;
 }
 
 h2 {
@@ -37,10 +38,9 @@ body {
 }
 
 header {
-    padding: 50px 10%;
+    padding: 50px 0 50px 10%;
     width: 80%;
     display: flex;
-    justify-content: flex-start;
     align-items: center;
     gap: 50px;
 }
@@ -53,11 +53,27 @@ header {
     width: 100%;
 }
 
+nav ul {
+    display: flex;
+    gap: 20px;
+    padding-left: 0;
+}
+
+nav a {
+    color: #fff;
+}
+
+nav a:hover {
+    color: #e3e3e3;
+}
+
+nav ul li {
+    list-style-type: none;
+}
+
 main {
     display: flex;
-    /* padding: 50px 5%; */
     background-color: #b7b7b7;
-    
 }
 
 .contacts {
