@@ -87,8 +87,10 @@ main {
     margin-bottom: 15px;
 }
 
-.contacts p {
-    margin-bottom: 1px;
+.contacts nav ul{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
 }
 
 .about {
